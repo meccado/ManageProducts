@@ -1,0 +1,183 @@
+/*COLORS:
+ MAIN COLORS
+  WHITE      #FFFFFF;
+  SILVER     #C0C0C0;
+  GREY       #808080;
+  BLACK      #000000;
+  RED        #FF0000;
+  MAROON     #800000;
+  YELLOW     #FFFF00;
+  OLIVE      #808000;
+  LIME       #00FF00;
+  GREEN      #008000;
+  AQUA       #00FFFF;
+  TEAL       #008080;
+  BLUE       #0000FF;
+  NAVY       #000080;
+  FUCHSIA    #FF00FF;
+  PURPLE     #800080;
+
+  Pink-Colors:
+  Pink	            #FFC0CB;
+  LightPink	        #FFB6C1;
+  HotPink	          #FFF69B4;
+  DeepPink	        #FF1493;
+  PaleVioletRed	    #DB7093;
+  MediumVioletRed	  #C71585;
+
+  Red -Colors
+  LightSalmon	      #FFA07A;
+  Salmon	          #FA8072;
+  DarkSalmon	      #E9967A;
+  LightCoral	      #F08080;
+  IndianRed	        #CD5C5C;
+  Crimson	          #DC143C;
+  FireBrick	        #B22222;
+  DarkRed	          #8B0000;
+  Red	              #FF0000;
+
+  Orange-Colors
+  OrangeRed	        #FF4500;
+  Tomato	          #FF6347;
+  Coral	            #FF7F50;
+  DarkOrange	      #FF8C00;
+  Orange	          #FFA500;
+
+
+  Yellow-Colors
+  Yellow	               #FFFF00;
+  LightYellow	           #FFFFE0;
+  LemonChiffon	         #FFFACD;
+  LightGoldenrodYellow	 #FAFAD2;
+  PapayaWhip	           #FFEFD5;
+  Moccasin	             #FFE4B5;
+  PeachPuff	             #FFDAB9;
+  PaleGoldenrod	         #EEE8AA;
+  Khaki	                 #F0E68C;
+  DarkKhaki	             #BDB76B;
+  Gold	                 #FFD700;
+
+  Brown-Colors
+  Cornsilk	             #FFF8DC;
+  BlanchedAlmond	       #FFEBCD;
+  Bisque	               #FFE4C4;
+  NavajoWhite	           #FFDEAD;
+  Wheat	                 #F5DEB3;
+  BurlyWood	             #DEB887;
+  Tan	                   #D2B48C	;
+  RosyBrown	             #BC8F8F;
+  SandyBrown	           #F4A460;
+  GoldenRod	             #DAA520;
+  DarkGoldenRod	         #B8860B;
+  Peru	                 #CD853F;
+  Chocolate	             #D2691E;
+  SaddleBrown	           #8B4513;
+  Sienna	               #A0522D;
+  Brown	                 #A52A2A;
+  Maroon	               #800000;
+
+  Green_Colors
+  DarkOliveGreen	       #556B2F;
+  Olive	                 #808000;
+  OliveDrab	             #6B8E23;
+  YellowGreen	           #9ACD32;
+  LimeGreen	             #32CD32;
+  Lime	                 #00FF00;
+  LawnGreen	             #7CFC00;
+  Chartreuse	           #7FFF00;
+  GreenYellow	           #ADFF2F;
+  SpringGreen	           #00FF7F;
+  MediumSpringGreen	     #00FA9A;
+  LightGreen	           #90EE90;
+  PaleGreen	             #98FB98;
+  DarkSeaGreen	         #8FBC8F;
+  MediumAquamarine	     #66CDAA;
+  MediumSeaGreen	       #3CB371;
+  SeaGreen	             #2E8B57;
+  ForestGreen	           #228B22;
+  Green	                 #008000;
+  DarkGreen	             #006400;
+
+  Cyan-Colors
+  Aqua	                 #00FFFF;
+  Cyan	                 #00FFFF;;
+  PaleTurquoise	         #AFEEEE;
+  Aquamarine	           #7FFFD4;
+  Turquoise	             #40E0D0;
+  MediumTurquoise	       #48D1CC;
+  DarkTurquoise	         #00CED1;
+  LightSeaGreen	         #20B2AA;
+  CadetBlue	             #5F9EA0;
+  DarkCyan	             #008B8B;
+  Teal	                 #008080;
+
+  Blue-Colors
+  LightSteelBlue	       #B0C4DE;
+  PowderBlue	           #B0E0E6;
+  LightBlue	             #ADD8E6;
+  SkyBlue	               #87CEEB;
+  LightSkyBlue	         #87CEFA;
+  DeepSkyBlue	           #00BFFF;
+  DodgerBlue	           #1E90FF;
+  CornflowerBlue	       #6495ED;
+  SteelBlue	             #4682B4;
+  RoyalBlue	             #4169E1;
+  Blue	                 #0000FF;
+  MediumBlue	           #0000CD;
+  DarkBlue	             #00008B;
+  Navy	                 #000080;
+  MidnightBlue	         #191970;
+
+  Purple:, violet:, and magenta: colors
+  Lavender	             #E6E6FA;
+  Thistle	               #D8BFD8;
+  Plum	                 #DDA0DD;
+  Violet	               #EE82EE;
+  Orchid	               #DA70D6;
+  Fuchsia	               #FF00FF;
+  Magenta	               #FF00FF;
+  MediumOrchid	         #BA55D3;
+  MediumPurple	         #9370DB;
+  BlueViolet	           #8A2BE2;
+  DarkViolet	           #9400D3;
+  DarkOrchid	           #9932CC;
+  DarkMagenta	           #8B008B;
+  Purple	               #800080;
+  Indigo	               #4B0082;
+  DarkSlateBlue	         #483D8B;
+  SlateBlue	             #6A5ACD;
+  MediumSlateBlue	       #7B68EE;
+
+
+
+  White-Colors
+  White	                 #FFFFFF;
+  Snow	                 #FFFAFA;
+  Honeydew	             #F0FFF0;
+  MintCream	             #F5FFFA;
+  Azure	                 #F0FFFF;
+  AliceBlue	             #F0F8FF;
+  GhostWhite	           #F8F8FF;
+  WhiteSmoke	           #F5F5F5;
+  Seashell	             #FFF5EE;
+  Beige	                 #F5F5DC;
+  OldLace	               #FDF5E6;
+  FloralWhite	           #FFFAF0;
+  Ivory	                 #FFFFF0;
+  AntiqueWhite	         #FAEBD7;
+  Linen	                 #FAF0E6;
+  LavenderBlush	         #FFF0F5;
+  MistyRose	             #FFE4E1;
+
+  Gray: and black: colors
+  Gainsboro	            #DCDCDC;
+  LightGrey	            #D3D3D3;
+  Silver	              #C0C0C0;
+  DarkGray	            #A9A9A9;
+  Gray	                #808080;
+  DimGray	              #696969;
+  LightSlateGray	      #778899;
+  SlateGray	            #708090;
+  DarkSlateGray	        #2F4F4F;
+  Black	                #000000;
+*/
