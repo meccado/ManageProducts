@@ -16,6 +16,7 @@ class CreateProductsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->text('description');
+            $table->float('price');
             $table->string('sku')->unique();
             $table->timestamp('published_at');
             $table->boolean('published')->default(0);

@@ -65,8 +65,9 @@ class ProductController extends Controller
   {
     $product = $this->products->create([
       'name'              => $request->get('name'),
-      'description'           => $request->get('description'),
-      'slug'              => str_slug($request->get('sku')),
+      'description'       => $request->get('description'),
+      'sku'               => str_slug($request->get('sku')),
+      'price'             =>$request->get('price'),
       'published'         => $request->input('published') === 'on' ? true : false,
       'published_at'      => $request->input('published_at'),
     ]);
@@ -125,8 +126,9 @@ class ProductController extends Controller
     $product->categories()->detach();
     $product->brands()->detach();
     $product->name              = $request->get('name');
-    $product->content           = $request->get('content');
-    $product->slug              = str_slug($request->get('slug'));
+    $product->description       = $request->get('description');
+    $product->sku               = str_slug($request->get('sku'));
+    $product->price             =>$request->get('price'),
     $product->published         = $request->input('published') === 'on' ? true : false;
     $product->published_at      = $request->input('published_at');
     $product->update();
